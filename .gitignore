@@ -5,6 +5,11 @@
 /.pnp
 .pnp.js
 
+#base de datos
+/DataBase
+db.js
+/DataBase/db.js
+
 # testing
 /coverage
 

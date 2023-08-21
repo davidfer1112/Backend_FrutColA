@@ -14,7 +14,10 @@ const db = new Sequelize('frutcola', 'zan0xoap9gsln1weljyn', 'pscale_pw_rXfxBpBd
         timestamps: false,
         freezeTableName: true
     },
-    port: '3306' // este es el puerto que utiliza mi base de datos, se configura aca
+    port: '3306', // este es el puerto que utiliza mi base de datos, se configura aca
+
 });
+
+//cambio 
 
 export default db;
